@@ -86,9 +86,9 @@ export default function App() {
             </span>
             <div id="navmodal">
               <div id="inputm">
-                <h4 id='locationpp'>LOCATION</h4>
+                <h4 id="locationpp">LOCATION</h4>
                 <div>
-                  <input 
+                  <input
                     className="inputmod"
                     type="text"
                     placeholder="Helsinki, Finland"
@@ -98,19 +98,22 @@ export default function App() {
                 </div>
               </div>
               <div id="guestsm">
-                <h4 id='locationpp'>GUESTS</h4>
-                <h5 id='addg'>Add guests</h5>
+                <h4 id="locationpp">GUESTS</h4>
+                <h5 id="addg">Add guests</h5>
               </div>
               <div id="searchp">
-                <span
-                  className="material-symbols-outlined"
-                  id="searchm"
-                  onClick={applyCityFilter}
-                >
-                  search <span id='seerch'>S e a r ch</span>
-                  
-                </span>
-                
+                <div>
+                  <span
+                    className="material-symbols-outlined"
+                    id="searchm"
+                    onClick={applyCityFilter}
+                  >
+                    search
+                  </span>
+                </div>
+                <div>
+                  <span id="seerch">Search</span>
+                </div>
               </div>
             </div>
             <div id="flexmod">
@@ -130,9 +133,9 @@ export default function App() {
               </div>
               <ul id="location2">
                 {cities.map((city) => (
-                  <li key={city} onClick={() => selectCity(city)}>
+                  <li className='lilili' key={city} onClick={() => selectCity(city)}>
                     {city}
-                   </li>
+                  </li>
                 ))}
               </ul>
               <div id="location2">

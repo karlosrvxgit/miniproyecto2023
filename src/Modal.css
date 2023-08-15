@@ -1,4 +1,4 @@
-/* Modal */
+
 .modal {
     display: block;
     position: fixed;
@@ -91,12 +91,12 @@
   #searchm {
     display: flex;
     justify-content: center;
-    text-align:center;
-    margin-left: 40px;
+    text-indent: 20%;
+    margin-left: 50px;
+    margin-top: 3px;
     flex-direction: column;
     width: 127px;
     height: 48px;
-    top: 97px;
     cursor: pointer;
     border-radius: 16px;
     background-color:  #EB5757;
@@ -107,7 +107,8 @@
 
   #searchp {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    text-align: left;
     flex-direction: column;
     margin-left: 120px;
   }
@@ -118,7 +119,6 @@
     font-weight: 800;
     line-height: 11px;
     letter-spacing: 0em;
-    /* text-align: left; */
     width: 47px;
     height: 11px;
     margin-left: 5px;
@@ -143,21 +143,21 @@
 
 .city-list {
   list-style: none;
-  /* padding: 20px; */
   margin-top: 20px;
   left: -450px;
   background-color: #EB5757;
-  
+  text-decoration: none;
 }
 
 .city-list li {
-  /* padding: 50px ; */
   cursor: pointer;
+ 
   
 }
 
 .city-list li:hover {
   background-color: #f1f1f1;
+  
 }
 
 #locationm {
@@ -179,6 +179,7 @@
   padding: 10px;
   margin-top: 20px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 
@@ -198,18 +199,23 @@
 }
 
 #seerch {
-  font-size: 10px;
+  font-size: 12px;
   font-family: Mulish;
   display: flex;
   justify-content:center;
   text-align:right;
-  flex-direction:column-reverse;
+  margin-left: 80px;
   font-weight: 700;
   line-height: 18px;
   letter-spacing: 0em;
-  margin-top: -20px;
-  /* text-align: left; */
+  margin-top: -33px;
+  color: white;
 
+}
+
+.lilili {
+  list-style:none;
+  
 }
 
 

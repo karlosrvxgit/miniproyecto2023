@@ -14,7 +14,6 @@ function Card({props}) {
         <div className="cuadro11-dw">
           <div className="superhost-main">
           {props.superHost ? <span className="superhost">SUPER HOST</span> : null}
-            {/* <span className="superhost">SUPER HOST</span> */}
           </div>
           <span id="beds">{props.type} . 2 beds</span>,
           <div className="star">
