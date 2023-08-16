@@ -1,4 +1,4 @@
-// Navbar.jsx
+
 import "./Navbar.css";
 import React from "react";
 import "./Modal.css";
